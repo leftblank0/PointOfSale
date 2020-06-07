@@ -13,8 +13,7 @@ namespace PointOfSale
             PointOfSaleTerminal post = new PointOfSaleTerminal();
             post.SetPricing();
 
-            var a = post.CalculateTotal();
-            var b = a;
+            var result = post.CalculateTotal();
         }
     }
 }
